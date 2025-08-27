@@ -1,0 +1,35 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* 768px -> 14px, 1024px -> 16px */
+    font-size: clamp(14px, 0.78125vw + 8px, 16px);
+
+    overscroll-behavior: none;
+
+    font-family: "Inter", sans-serif;
+    font-feature-settings: 'ccmp', 'cv05', 'cv08';
+    word-break: keep-all;
+
+    @supports (font-variation-settings: normal) {
+        font-family: "InterVariable", sans-serif;
+        font-optical-sizing: auto;
+    }
+}
+
+::selection {
+    background: var(--accent);
+    color: var(--text-on-accent)
+}
+
+main {
+    margin: 1rem 1.5rem;
+    cursor: default;
+}
+
+dfn {
+    font-style: normal;
+    font-weight: bold;
+}

@@ -1,0 +1,41 @@
+:root {
+    --blue: #0078fc;
+    --red: #ef4444;
+    --green: #22c55e;
+    --yellow: #facc15;
+
+    --error: #ef4444;
+    --success: #22c55e;
+
+    --accent: var(--blue);
+    --accent-hover: color-mix(in oklab, var(--accent), lab(0% 0 0) 4%);
+    --accent-active: color-mix(in oklab, var(--accent), lab(0% 0 0) 8%);
+
+    --destructive: var(--red);
+    --destructive-hover: color-mix(in oklab, var(--destructive), lab(0% 0 0) 2%);
+    --destructive-active: color-mix(in oklab, var(--destructive), lab(0% 0 0) 6%);
+
+    --link: rgb(0, 122, 255);
+    --link-hover: rgb(16, 107, 204);
+    --link-visited: rgb(209, 30, 235);
+
+    --text: #111827;
+    --text-on-accent: white;
+    --text-placeholder: #9ca3af;
+    --text-weak: #6b7280;
+    --text-disabled: #6b7280;
+
+
+    --back: white;
+    --back-hover: #f8fafc;
+    --back-active: #f1f5f9;
+    --back-disabled: #f9fafb;
+
+    --box-back: #f7f7fa;
+    --tooltip-back: #f3f4f6;
+
+    --contrast: #000;
+    --stroke: #d1d5dc;
+    --shadow: #6b7280;
+    --interface: #6b7280;
+}

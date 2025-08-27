@@ -1,0 +1,17 @@
+figure.figsize: 10, 6
+figure.facecolor: white
+axes.facecolor: white
+
+
+font.family: Inter
+font.size: 12
+axes.labelsize: 14
+axes.titlesize: 16
+xtick.labelsize: 12
+ytick.labelsize: 12
+
+
+axes.grid: True
+grid.alpha: 0.3
+lines.linewidth: 2
+lines.markersize: 8

@@ -1,0 +1,1 @@
+export type LanguageLiteral = "pseudocode" | "python" | "asm" | "c" | "cpp"

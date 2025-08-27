@@ -1,0 +1,19 @@
+@page
+{
+    size: Letter portrait;
+    margin: 2rem 1rem;
+}
+
+@media print {
+    html, body {
+        /*font-size: 12pt;*/
+    }
+
+    header {
+        display: none !important;
+    }
+
+    main {
+        margin: 0 1rem
+    }
+}
